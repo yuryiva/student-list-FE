@@ -81,7 +81,7 @@ class App extends Component {
         {
           this.state.data.length > 0 &&
           this.state.data.map((student, index) =>
-            <p key={index}>Name: {student.name} and age: {student.age}</p>
+            <p key={index}>Name: {student.user} and age: {student.age}</p>
           )
         }
       </div>
